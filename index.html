@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+
+    <!-- Font Awesome File  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+    <!--@ Bootstrap File  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--# style css File  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <div class="parentElement">
+        <nav class="navbar navbar-expand-lg navbar-dark py-5">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                    <img src="./images/logo.png" class="logo" alt="weather logo" />
+                    Weather</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Live Cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="form mt-5">
+            <div class="container">
+                <input type="text" placeholder="Find Your Location" class="border-0 w-100 py-3 px-4 text-white rounded-5" />
+            </div>
+        </div>
+    
+        <div class="content mt-5 rounded-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6" id="currentDay">
+    
+                    </div>
+                    <div class="col-lg-4 col-md-6" id="nextDay">
+    
+                    </div>
+                    <div class="col-lg-4 col-md-6" id="thirdDay">
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="pop-up w-25 d-none mx-auto position-absolute top-50 start-50 translate-middle">
+        <div class="pop-up-card py-5 px-4 d-flex">
+            <div class="spansDiv d-flex gap-1 position-absolute w-100">
+                <span></span>
+                <span></span>
+                <span></span>
+                <div class="icon position-absolute">
+                    <i class="fa-solid fa-close"></i>
+                </div>
+            </div>
+            <p class="position-absolute"><i class="fa-solid fa-arrow-right me-2 p-1"></i> Incorrect Country Name</p>
+        </div>
+    </div> -->
+
+    <!--! Js File  -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
+
+<!-- <div class="col-lg-4 col-md-6">
+                    <div class="contentBx rounded-3 middle">
+                        <div class="text-white-50 py-2 px-3 top-content d-flex justify-content-between">
+                            <span>Sunday</span>
+                            <span>5 March</span>
+                        </div>
+                        <div class="middle-content px-4 pt-4">
+                            <h3 class="mt-2 text-white">Cairo</h3>
+                            <p class="degree my-1 text-white">
+                                23oC
+                            </p>
+                            <p class="custom">clear</p>
+                        </div>
+                        <div class="bottom-content px-4 py-2">
+                            <span class="text-white-50 me-3"> <i class="fa-solid fa-umbrella"> 20%</i> </span>
+                            <span class="text-white-50 me-3"><i class="fa-solid fa-wind"></i> 18km/h</span>
+                            <span class="text-white-50 me-3"><i class="fa-solid fa-compass"></i> East</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="contentBx rounded-3">
+                        <div class="text-white-50 py-2 px-3 top-content d-flex justify-content-between">
+                            <span>Sunday</span>
+                            <span>5 March</span>
+                        </div>
+                        <div class="middle-content px-4 pt-4">
+                            <h3 class="mt-2 text-white">Cairo</h3>
+                            <p class="degree my-1 text-white">
+                                23oC
+                            </p>
+                            <p class="custom">clear</p>
+                        </div>
+                        <div class="bottom-content px-4 py-2">
+                            <span class="text-white-50 me-3"> <i class="fa-solid fa-umbrella"> 20%</i> </span>
+                            <span class="text-white-50 me-3"><i class="fa-solid fa-wind"></i> 18km/h</span>
+                            <span class="text-white-50 me-3"><i class="fa-solid fa-compass"></i> East</span>
+                        </div>
+                    </div>
+                </div> -->
